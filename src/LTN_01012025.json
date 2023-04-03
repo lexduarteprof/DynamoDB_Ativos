@@ -1,0 +1,8 @@
+{
+  "codigoISIN": {"S": "BRSTNCLTN7N2"},
+  "nome": {"S": "LTN"},
+  "taxaJuros": {"N": 0},
+  "indexCorrecao": {"S": "Null"},
+  "dataVencimento": {"S": "01/01/2025"}
+}
+

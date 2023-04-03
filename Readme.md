@@ -15,3 +15,8 @@ aws dynamodb create-table \
         ReadCapacityUnits=10,WriteCapacityUnits=5
 ```
 
+- Inserir um item
+
+aws dynamodb put-item \
+--table-name Music \
+--item file://src/LTN_01012025.json \

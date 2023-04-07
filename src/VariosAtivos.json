@@ -1,0 +1,100 @@
+{
+  "AtivoFinanceiro": [
+    {
+      "PutRequest": {
+        "Item": {
+          "codigoISIN": {
+            "S": "BRSTNCLF1RA8"
+          },
+          "nome": {
+            "S": "LFT"
+          },
+          "taxaJuros": {
+            "N": "0"
+          },
+          "indexCorrecao": {
+            "S": "SELIC"
+          },
+          "dataVencimento": {
+            "S": "01/03/2024"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "codigoISIN": {"S": "BRSTNCLF1RL5"},
+          "nome": {"S": "LFT"},
+          "taxaJuros": {"N":  "0"},
+          "indexCorrecao": {"S": "SELIC"},
+          "dataVencimento": {"S": "01/03/2029"}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "codigoISIN": {
+            "S": "BRSTNCLTN848"
+          },
+          "nome": {
+            "S": "LFT"
+          },
+          "taxaJuros": {
+            "N": "0"
+          },
+          "indexCorrecao": {
+            "S": "Null"
+          },
+          "dataVencimento": {
+            "S": "01/07/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "codigoISIN": {
+            "S": "BRSTNCNTB4A8"
+          },
+          "nome": {
+            "S": "NTN-B"
+          },
+          "taxaJuros": {
+            "N": "6"
+          },
+          "indexCorrecao": {
+            "S": "IPCA"
+          },
+          "dataVencimento": {
+            "S": "15/08/2025"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "codigoISIN": {"S": "BRSTNCNTF204"},
+          "nome": {"S": "NTN-F"},
+          "taxaJuros": {"N":  "10"},
+          "indexCorrecao": {"S": "Null"},
+          "dataVencimento": {"S": "01/01/2031"}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "codigoISIN": {"S": "BRSTNCLTN822"},
+          "nome": {"S": "LTN"},
+          "taxaJuros": {"N":  "0"},
+          "indexCorrecao": {"S": "Null"},
+          "dataVencimento": {"S": "01/10/2024"}
+        }
+      }
+    }
+  ]
+}
